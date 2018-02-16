@@ -1,0 +1,71 @@
+@font-face
+{
+font-family: Simplifica;
+src: url("/fonts/SIMPLIFICA/SIMPLIFICA Typeface.ttf"),
+url("/fonts/SIMPLIFICA/SIMPLIFICA Typeface.ttf");
+}
+
+
+html {
+	margin: 0;
+	padding: 0;
+  /*background-image: url("./../photos/bg_pawns.jpeg");*/
+  overflow:hidden;
+}
+
+body {
+	position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.container-fluid{
+  background-color: #DDD;
+}
+
+.sidebar{
+  border-right-style:double;
+  border-right-color:black;
+}
+
+#search-results{
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family:Times;
+}
+/* navbar */
+.navbar-default {
+    background-color: #777777;
+    border-color: #E7E7E7;
+    font-family:Simplifica;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #28A73C;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #40cc16;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #28A73C;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #40cc16;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #40cc16;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #40cc16;
+}
